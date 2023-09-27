@@ -12,6 +12,7 @@ const mockProvider = new Pact({
     : 'pactflow-example-provider'
 });
 
+// test
 describe('API Pact test', () => {
   describe('retrieving a product', () => {
     test('ID 10 exists', async () => {
